@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="WPM_3DASSESTMANAGMENT(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Assetmanagement.testcases.EditTestCase">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LaunchApplication"/>
+          <include name="updateEmail"/>
+          <include name="Enable_DisableUser"/>
+          <include name="updateProject"/>
+        </methods>
+      </class> <!-- com.Assetmanagement.testcases.EditTestCase -->
+    </classes>
+  </test> <!-- WPM_3DASSESTMANAGMENT(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,12 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite" parallel="false" >
+  <test name="WPM_3DASSESTMANAGMENT" preserve-order="true">
+    <parameter name="browser" value="chrome" />
+    <classes>
+       <!--  <class name="com.Assetmanagement.testcases.LoginTestCase"/> -->
+         <class name="com.Assetmanagement.testcases.InviteTestCase"/>
+       <!--   <class name="com.Assetmanagement.testcases.EditTestCase"/> -->
+    </classes>
+  </test> 
+</suite> 

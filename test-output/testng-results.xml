@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90974" started-at="2022-10-28T18:12:54 IST" finished-at="2022-10-28T18:14:25 IST">
+    <groups>
+    </groups>
+    <test name="WPM_3DASSESTMANAGMENT" duration-ms="90974" started-at="2022-10-28T18:12:54 IST" finished-at="2022-10-28T18:14:25 IST">
+      <class name="com.Assetmanagement.testcases.InviteTestCase">
+        <test-method status="PASS" signature="LaunchApplication(java.lang.String)[pri:0, instance:com.Assetmanagement.testcases.InviteTestCase@76a3e297]" name="LaunchApplication" is-config="true" duration-ms="11878" started-at="2022-10-28T18:12:54 IST" finished-at="2022-10-28T18:13:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="Invite()[pri:1, instance:com.Assetmanagement.testcases.InviteTestCase@76a3e297]" name="Invite" duration-ms="34112" started-at="2022-10-28T18:13:06 IST" finished-at="2022-10-28T18:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invite -->
+        <test-method status="PASS" signature="Signup()[pri:2, instance:com.Assetmanagement.testcases.InviteTestCase@76a3e297]" name="Signup" duration-ms="44903" started-at="2022-10-28T18:13:40 IST" finished-at="2022-10-28T18:14:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+      </class> <!-- com.Assetmanagement.testcases.InviteTestCase -->
+    </test> <!-- WPM_3DASSESTMANAGMENT -->
+  </suite> <!-- Suite -->
+</testng-results>
